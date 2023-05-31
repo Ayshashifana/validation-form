@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0;
+    font-family:sans-serif;
+}
+
+.validation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg,#e82424 0%, #f1f172 40%, #6258ca 80%);
+    height: 100vh;
+}
+.form{
+    width: 250px;
+    border: 2px solid #e82424;
+    height: 400px;
+    padding:10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px #454178,-4px -4px 4px #c3723b;
+    
+    
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+.input-group input{
+    margin: 5px 0px 0px ;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: inset 4px 4px 4px #cacaf5, inset -4px -4px 4px #f9e1d1;
+    border: none;
+}
+.form button{
+    padding: 10px;
+    width:80%;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(90deg,#24b1e8 0%, #6258ca 80%);
+    margin:10px 30px;
+    color: white;
+    font-size: 17px;
+    box-shadow: 2px 2px 4px rgb(99, 99, 57),-2px -2px 4px rgb(99, 99, 57);
+
+}
+.input-group div{
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left:7px;
+}
+.success input{
+    outline-color: rgb(34, 118, 34);
+}
+.failure input{
+    outline-color: rgb(222, 28, 28);
+}
